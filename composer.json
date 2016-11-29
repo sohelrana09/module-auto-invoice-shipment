@@ -1,0 +1,26 @@
+{
+  "name": "sr/module-auto-invoice-shipment",
+  "description": "",
+  "require": {
+    "php": "~5.5.22|~5.6.0|~7.0.0",
+    "magento/module-sales": "100.*",
+    "magento/module-store": "100.*",
+    "magento/framework": "100.*"
+  },
+  "type": "magento2-module",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Sohel Rana",
+      "email": "sohelrana09@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SR\\AutoInvoiceShipment\\": ""
+    }
+  }
+}
